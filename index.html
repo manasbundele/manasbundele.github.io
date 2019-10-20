@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Manas Bundele">
+		<meta content="width=device-width,initial-scale=1.0" name="viewport">
+		<meta name="keywords" content="">
+		<link rel="author" href=https://plus.google.com/117858337876704972245/>
+		<title> Manas Bundele </title>
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+		<link rel="stylesheet" href="base.css">
+		<link rel="stylesheet" href="style.css">
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script>
+			 $(document).ready(function() {
+				 $(".slide-section").click(function(e) {
+				    e.preventDefault();
+				    var aid = $(this).attr("href");
+				    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+				});
+			 });
+
+
+			window.onscroll = function() {scrollFunction()};
+			var position = $(window).scrollTop();
+			function scrollFunction() {
+				var scroll = $(window).scrollTop();
+			  if (scroll > $( "#center-image" ).position().top + 250) {
+			    //document.getElementById("center-image").style.fadeOut = "slow";
+			    $("#sidenav-image").show();
+			    // $( "#center-image" ).hide(1000);
+			    $(".sidenav a").css('font-size', '18px');
+			    $(".sidenav").css('width', '15%');
+			    $('#right-half').css('margin-left', '15%');
+			    $(".sidenav a").show();
+			    $("#social-icons").fadeIn();
+			  } else{
+			    //document.getElementById("sidenav-image").style.display = ;
+			    $("#sidenav-image").hide(500);
+			    // $( "#center-image" ).show(1000);
+			    $(".sidenav a").css('font-size', '18px');
+			    $(".sidenav").css('width', '5%');
+			    $('#right-half').css('margin-left', '5%');
+			    $(".sidenav a").hide(500);
+			    $("#social-icons").fadeOut();
+			  }
+			}
+
+
+		 </script>
+	</head>
+	<body>
+		<main>
+			<div class="sidenav">
+
+			  <a href="#firstpage" class="slide-section"><img src="mypic_latest.jpg" id="sidenav-image" alt="myAvatar"></a><br>
+		  	  <a href="#about" class="slide-section">About</a><br>
+			  <a href="#education" class="slide-section">Education</a><br>
+			  <a href="#experience" class="slide-section">Experience</a><br>
+			  <a href="#skills" class="slide-section">Skills</a><br>
+			  <a href="#publications" class="slide-section">Publications</a><br>
+			  <a href="#projects" class="slide-section">Projects</a><br>
+			  <a href="#por" class="slide-section">Positions of Responsibility</a><br>
+			  <a href="#courses" class="slide-section">Courses</a><br>
+			  <a href="#achievements" class="slide-section">Achievements</a><br>
+			  <a href="#resume" class="slide-section">Resume</a><br>	
+			  <p style="font-size: 8px; color: white; position: absolute; bottom: 0px; left: 0px; right: 0px;">*Desktop compatible view only*</p>  	
+			</div>
+		
+			<div id="right-half">
+				<!-- <section class="module parallax1 parallax-1">
+					<div class="container">
+						<div class="projbox"><h1>Manas Bundele</h1></div>
+					</div>
+					</div>	
+				</section> -->
+
+		      	<section class="module content1" id="firstpage">
+		      		<div class="container">
+		      		<img src="mypic_latest.jpg" id="center-image" alt="myAvatar">
+		      		<h1>Manas Bundele</h1>
+					<div id="social-links" style="margin-bottom: 50px;">
+						<img src="mail-black.png" id="mail-image" alt="mail" style="vertical-align: middle; margin-left: 10px;">
+			      		<a href="mailto:mmb180005@utdallas.edu">mmb180005@utdallas.edu</a>
+			      		<img src="linkedin-black.png" id="linkedin-image" alt="linkedin" style="vertical-align: middle; margin-left: 10px;">
+			      		<a href="https://www.linkedin.com/in/manasbundele/" target="_blank">manasbundele</a>
+			      		<img src="GitHub-Mark-32px.png" id="github-image" alt="github" style="vertical-align: middle; margin-left: 10px;">
+			      		<a href="https://github.com/manasbundele" target="_blank">manasbundele</a>
+					</div>
+		      		
+		      		</div>
+		      	</section>
+
+		      	<section class="module common" id="about">
+		      		<div class="container">
+			      		<h1>About</h1>
+			      		<h5></h5>
+			      		<p style="text-align: center; margin-left: 45px; margin-right: 45px; font-size: 18px;">I am currently a Master's student at University of Texas at Dallas, <br> studying Computer Science with specialization in Intelligent Systems. My broad interests include Computer Vision, Natural Language Processing and Machine Learning. I am currently working on my thesis titled 'Caption Generation for Images'. I am always excited to talk about interesting problems in the field of Computer Science.</p><br>
+
+			      		<p style="text-align: center;margin-left: 45px; margin-right: 45px; font-size: 18px;"> I completed my B.Tech. in Computer Science and Engineering <br> at Indian Institute of Technology, 
+			      		Jodhpur in 2016. After my B.Tech. at IIT Jodhpur, I worked as Software Engineer at Voylla Fashions Pvt. Ltd.</p>
+			      		</div>	
+		      	</section>
+
+		      	<section class="module common" id="education">
+		      		<div class="container">
+		      		<h1>Education</h1>
+		      		<h5></h5>
+		      		<img src="UTD_emblem_2c_flame_eco.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="60" width="60">
+		      		<div style="display:inline-block; width:90%; margin-bottom: 40px;">
+		      			<h2 style="float: left;" >University of Texas at Dallas</h2>
+			      		<h3 style="float: right;">| MS in Computer Science</h3>
+			      		<br style="clear:both;" />
+			      		<h3 style="float: right;">Expected May 2020</h3>
+			      		
+			      		<p>Jonsson School $1000 Graduate Study Scholarship Recipient</p>
+		      		</div>
+
+		      		<img src="IITJ Logo__Smallest.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="60" width="60">
+		      		<div style="display:inline-block; width:90%;">
+		      			<h2 style="float: left;">Indian Institute of Technology, Jodhpur</h2>
+			      		<h3 style="float: right;">| B.Tech. in Computer Science & Engineering</h3>
+			      		<br style="clear:both;" />
+			      		<h3 style="float: right;">May 2016</h3>
+			      		<p>B.Tech. Project, one of the three projects nominated from the institute for 'Best B.Tech. Project' award</p>
+			      	</div>
+
+		      		</div>
+		      	</section>
+
+		      	<!-- <hr class="striped" width="90%"> -->
+				<!-- <section class="module parallax2 parallax-2">
+					<div class="container">
+						<h1>Experience</h1>
+					</div>	
+				</section> -->
+
+		      	<section class="module common" id="experience">
+		      		<div class="container">
+		      		
+		      		<h1>Experience</h1>
+		      		<h5></h5>
+		      		<img src="UTD_emblem_2c_flame_eco.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="45" width="45">
+		      		<h2>UT Dallas Computer Science Department</h2>
+					<ul style="list-style-type:disc;">
+					<h3 style="float: left; "><li>Outreach Coding Camp Counselor</li></h3>
+					<h3 style="float: right;">Jun 2019 - July 2019</h3>
+					<br style="clear:both;" />
+		      		<li style="margin-left: 60px;"> Worked as a camp counselor for high school kids of different ages participating in the coding camps at UTD
+					</li>
+						
+
+					<h3 style="float: left; margin-left: 60px;"><li>Computer Science Grader</li></h3>
+					<h3 style="float: right;">Aug 2018 - May 2019</h3>
+					<br style="clear:both;" />
+		      		<ul style="list-style-type:disc;">
+		      		<li style="margin-left: 60px;">Graded the tests, quizzes and assignments of a batch of 75 undergraduate students for the course Discrete Mathematics</li><li style="margin-left: 60px;"> Got nominated for the ’Best Grader’ Award in the department </li>
+					</p>
+					</ul><br>
+
+					<!-- <hr> -->
+
+					<br>
+
+					<img src="voylla.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="45" width="45">
+		      		<h2 style="float: left;">Voylla Fashions Pvt. Ltd., Jaipur</h2>
+					<h3 style="float: left;">| Software Engineer</h3>
+					<h3 style="float: right;">May 2016 - Jun 2017</h3>
+					<br style="clear:both;" />
+					<ul style="list-style-type:disc;">
+		      		<li style="margin-left: 60px;"><u>Project LP Boost</u>: Designed and implemented an algorithm that increased revenue of the company many fold and was probably the first such advanced implementation in the company.
+					</li>
+					<li style="margin-left: 60px;">
+						<u>Project Solidus</u>: Voylla Website Upgradation (Team of Eight developers) and Data Migration.<br>
+- Key member of the team of four, involved in developing website’s order pipeline.<br>	
+- Handled data migration, a very critical aspect of the project which could only be totally tested in production environment<br>
+- Improved the efficiency of Order Pipeline and other features through code and database query optimization
+
+					</li>
+					<li style="margin-left: 60px;"><u>Project CRM Centre Database</u>: Wrote optimized Postgresql scripts to synchronize the customer’s data from website and ERP databases into a centralized database daily, data being used for analysis and in key projects by the Data Science team</li>
+					<br>
+
+					<!-- <hr> -->
+
+					<br><h2 style="float: left; margin-left: 60px;">Defence Institute of Advanced Technology, Pune</h2>
+					<h3 style="float: left;">| Research Intern</h3>
+					<h3 style="float: right;">May 2014 - Jun 2014</h3>
+					<br style="clear:both;" />
+		      		<ul style="list-style-type:disc;">
+		      		<li style="margin-left: 60px;">Participated in the research project titled “ Underwater Glider” under the guidance of Cdr (Dr.) Arnab Das at Defence Institute of Advanced Technology, Pune and Indian Institute of Technology, Delhi (IITD).
+					</li><br>
+					
+
+		      		</div>
+		      	</section>
+
+			   
+			    <section class="module common courses" id="skills">
+			      	<div class="container">
+			      		<h1>Skills</h1>
+			      		<h5>Below are some of the skills that I have used in my projects before. I am always willing to add more to my skillset.</h5>
+			      		<div class="skills-row">
+						  
+			      		  <div class="skills-column">
+						  	<img src="./Python-01.png" style="margin-bottom: -30px;" height="100" width="100"><!--  <h2>Python</h2> -->
+						  	<p>Although I had used python a couple of times before joining UTD, I have been using it over the past 1 and 1/2 years for my coursework and research. Most of my projects related CV, NLP and ML have been coded in Python.</p>
+
+						  </div>
+
+						  <div class="skills-column">
+						  	<img src="./tensorflow.png" style="" height="70" width="140"> 
+						  	<!-- <h2>Tensorflow</h2> -->
+						  	<p>I have been using this library over the past few months in my projects as well as my research work. To improve my skills, I very recently completed a course 'Tensorflow in Practice' by deeplearning.ai. </p>
+						  </div>
+
+						  <div class="skills-column">
+						  	<img src="./ruby-on-rails.png" style="border-radius: 50%;" height="70" width="100"> 
+						  	<!-- <h2>Ruby on Rails</h2> -->
+						  	<p>During my job at Voylla Fashions Pvt. Ltd., being one of the go-to backend developers, I have heavily used it for development, debugging and optimization of several projects. </p>
+						  </div>
+						  
+
+
+						  
+
+						</div>
+
+						<div class="skills-row" style="text-align: center;">
+						  <div class="skills-column" style="width: 45%;">
+						  	<img src="./scala.png" style="border-radius: 50%;" height="70" width="100"> 
+						  	<!-- <h2>Scala</h2> -->
+						  	<p>I recently used this language during my course, Big Data Analytics and Management. It is a wonderful language to work with and hope to use it again in my other projects.</p>
+						  </div>
+
+						  <div class="skills-column" style="width: 45%;">
+						  	<img src="./apache-spark.png" style="" height="70" width="140"> 
+						  	<!-- <h2>Apache Spark</h2> -->
+						  	<p>During my course Big Data and Analytics, it was interesting to learn about Big Data ecosystems i.e. Hadoop, Mapreduce, Apache Spark and NoSQL systems.</p>
+						  </div>
+						  
+						</div>
+
+						<div class="skills-row">
+
+						  <div class="skills-column">
+						  	<img src="./C++-01.png" style="border-radius: 50%;" height="70" width="70"> 
+						  	<!-- <h2>C/C++</h2> -->
+						  	<p>I have extensively used C/C++ in projects and competitive coding during my B.Tech., prior to 2016. Recently, got in touch with it again(alongwith opengl) in my course Computer Animation and Gaming.</p>
+						  </div>
+
+						  <div class="skills-column">
+						  	<img src="./postgresql.png" style="" height="70" width="70"> 
+						  	<!-- <h2>Postgresql</h2> -->
+						  	<p>I have written several 1000 queries in Postgresql over the course of my projects at Voylla. From using it for analysis, data cleaning and data migration in Solidus to creating a CRM centre database, it has been an interesting journey working with data using Postgresql.</p>
+						  </div>
+						  
+
+						  <div class="skills-column">
+						  	<img src="./html-css-js.png" style="" height="70" width="140">
+						  	<!-- <h2>HTML, CSS, JS, Jquery</h2>  -->
+						  	<p>Right from building this website to working on frontend related projects at Voylla, it has been fun using HTML, CSS, JS and Jquery.</p>
+
+						  </div>
+				
+						  
+						</div>
+
+			      		<!-- <div style="float: right;">*ongoing</div> -->
+			      </section>
+
+
+
+			      <section class="module common" id="publications">
+			      	<div class="container">
+			      		<h1>Publications</h1>
+			      		<h5></h5>
+			      		
+						<div style="margin-bottom: 20px;">
+			      			<ul style="list-style-type:disc; margin: 20px;">
+				      			<li>Pratik Kalshetti, <u>Manas Bundele</u>, Parag Rahangdale, Dinesh Jangra, Chiranjoy Chattopadhyay, Gaurav Harit and Abhay Elhence; "An Interactive Medical Image Segmentation Framework Using Iterative Refinement", Computers in Biology and Medicine, February 2017, pp. 22-33. <br>
+
+				      			More details at: <a href="http://home.iitj.ac.in/~chiranjoy/research/medimage.html" target="_blank">http://home.iitj.ac.in/~chiranjoy/research/medimage.html</a></li>
+				      		</ul>
+			      		</div><br>
+			      </section>
+			  <!-- <section class="module parallax2 parallax-3">
+			        <div class="container2">
+			        	<div class="layer2">
+			
+			        	</div>
+			        	<h1>Some projects that I have worked upon.</h1>
+			        </div>
+			      </section> -->
+
+			    <section class="module common projects" id="projects">
+			        <div class="container">
+			        	<h1>Projects</h1>
+			        	<h5 style="text-align: center;">This list of projects cover most of my projects but is not limited to the same.</h5>
+
+			        	<h2 style="text-align: center;" >@University of Texas at Dallas</h2>
+				        <div style="display: inline-block;">
+				            <div class="col-md-5 projbox">
+								<div class="work-grid-info">
+									<h2 style="">Caption Generation*</h2>
+									<h3 style="text-align: center;">[Master's Thesis]</h3>
+									<p>To develop a novel technique to generate the description of an image by understanding its contents. The aim is to improve the language model, as most generated captions lack richness in its content. </p> 
+									<div style="bottom: 20px; position: absolute;">
+										<span class="project-skills">python</span>
+										<span class="project-skills">tensorflow</span>
+									</div>
+
+								</div>
+							</div>
+							<a href="https://github.com/manasbundele/big-data-projects/tree/master/fake-opinion-detection" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Fake Opinion Detection</h2>
+										<h3 style="text-align: center;">[Big Data]</h3>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Developed a supervised learning model using Pyspark and MLlib that was able to detect fake reviews by learning from YelpNYC dataset.</p> 
+
+										<div style="bottom: 20px; position: absolute;">
+											<!-- <span class="project-skills">python</span> -->
+											<span class="project-skills">pyspark</span>
+											<span class="project-skills">mllib</span>
+											<span class="project-skills">nltk</span>
+											<span class="project-skills">sklearn</span>
+
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://github.com/manasbundele/big-data-projects/tree/master/sentiment-analysis-for-streaming-twitter-feeds" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Sentiment analysis of live <br> streaming twitter feeds</h2>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Created a Spark Streaming application that continuously reads data from Twitter about a topic and these feeds can be analyzed for their sentiment and the trend can be visualized using ElasticSearch, Logstash and Kibana(ELK) stack.</p> 
+
+										<div style="bottom: 20px; text-align: center;">
+											<span class="project-skills">scala</span>
+											<span class="project-skills">apache spark</span>
+											<span class="project-skills">kafka</span><br>
+											<span class="project-skills">elasticsearch</span>
+											<span class="project-skills">logstash</span>
+											<span class="project-skills">kibana</span>
+											<span class="project-skills">stanford corenlp sentiment analyzer</span>
+											
+										</div>
+
+									</div>
+								</div>
+							</a>
+							<a href="https://github.com/manasbundele/big-data-projects" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Other Big Data-related projects</h2>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Implemented various algorithms and performed analysis on big data related to airports, movies, twitter social circles, etc. <br> 
+										<!-- <div style="margin-left: 30px;">
+										1. Pagerank for airports <br>
+										2. Search Engine for movies. <br>
+										3. Topic modeling <br>
+										4. Twitter airline sentiment analysis <br>
+										5. Twitter social circles analysis using GraphX <br>
+										</div>
+		 -->
+						      		<ul style="list-style-type:disc; margin-left: 50px;">
+						      			<li style="margin: -3px;">Pagerank for airports</li>
+						      			<li style="margin: -3px;">Search Engine for movies</li>
+						      			<li style="margin: -3px;">Topic modeling for classic books</li>
+						      			<li style="margin: -3px;">Twitter airline sentiment analysis</li>
+						      			<li style="margin: -3px;">Twitter social circles analysis using GraphX</li>
+						      			
+						      		</ul>
+
+										</p> 
+
+										<div style="bottom: 20px; position: absolute;">
+											<span class="project-skills">scala</span>
+											<span class="project-skills">apache spark</span>
+											<span class="project-skills">hadoop mapreduce</span>
+											<span class="project-skills">graphx</span>
+											<span class="project-skills">mllib</span>
+											<span class="project-skills">sparksql</span>
+										</div>
+
+									</div>
+								</div>
+							<a href="https://github.com/manasbundele/computer-vision-projects/tree/master/modified-mnist" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Modified MNIST Digit Recognition <br> using ResNet</h2>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Implemented a residual network using Tensorflow in Python and included batch normalization, non-linearities, dropout, l2
+		regularization to improve accuracy and reduce overfitting. Achieved over 90% accuracy in 4 & 1/2 min on testing data of 10k images with modified different random training datasets of
+		6k images of size 7*7</p> 
+			
+									<div style="bottom: 20px; position: absolute;">
+										<span class="project-skills">python</span>
+										<span class="project-skills">opencv</span>
+										<span class="project-skills">tensorflow</span>
+										<span class="project-skills">keras</span>
+									
+									</div>
+
+									</div>
+								</div>
+							</a>
+							<a href="https://github.com/manasbundele/computer-vision-projects/tree/master/wink-detection" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Wink Detection using Haar Cascades</h2>
+										<h3 style="text-align: center;">[Computer Vision]</h3>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Implemented a winking face detection algorithm in images as well as live video using Haar feature-based cascade classifiers.</p> 
+
+										<div style="bottom: 20px; position: absolute;text-align: center;">
+											<span class="project-skills">python</span>
+											<span class="project-skills">opencv</span>
+
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://github.com/manasbundele/natural-language-processing/tree/master/text-generation-using-ngram-language-model" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Text Generation using N-Gram Language Model</h2>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Implemented a MLE based N-Gram language model with various smoothing techinques to generate text based on a written text.</p> 
+
+										<div style="bottom: 20px; position: absolute;text-align: center;">
+											<span class="project-skills">python</span>
+										
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://github.com/manasbundele/natural-language-processing/tree/master/movie-review-sentiment-analysis" target="_blank">
+					            <div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Sentiment Analysis of <br> Movie Reviews</h2>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Implemented a sentiment analyzer using Naive Bayes and Logistic Regression classifier to predict the sentiment of a review. It also uses a sentiment lexicon, Dictionary of Affect in Language, which is further augmented using WordNet to improve sentiment analysis results.</p> 
+
+										<div style="bottom: 20px; position: absolute;text-align: center;">
+											<span class="project-skills">python</span>
+											<span class="project-skills">sklearn</span>
+											<span class="project-skills">nltk</span>
+											
+										</div>
+									</div>
+								</div>
+
+							</a>
+							<a href="https://github.com/manasbundele/natural-language-processing/tree/master/pos-tagging-using-memm" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">POS tagging using MEMM <br> with Viterbi decoding</h2>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Implemented a POS tagger using Maximum Entropy Markov Model with Viterbi to decode the highest probability sequence of tags for each test sentence.</p> 
+										<div style="bottom: 20px; position: absolute;">
+											<span class="project-skills">python</span>
+											<span class="project-skills">sklearn</span>
+											<span class="project-skills">nltk</span>
+											<span class="project-skills">scipy</span>
+											
+										</div>
+
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<h2 style="text-align: center; margin: 30px; margin-top: 50px;" >@IIT Jodhpur</h2>
+						<div style="display: inline-block;">
+							<a href="http://home.iitj.ac.in/~chiranjoy/research/medimage.html" target="_blank">
+								<div class="col-md-5 projbox">
+									<div class="work-grid-info">
+										<h2 style="">Interactive Medical Image Segmentation</h2>
+										<h3 style="text-align: center;">[B.Tech. Project]</h3>
+										<!-- <h3 style="float: right;">Jul'15 - ongoing</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Chiranjoy Chattopadhyay | IIT Jodhpur</h3> -->
+										<p>Developed a semi-automated segmentation technique for efficient image analysis for 3D visualisation as well as image guided
+		surgery at reduced costs and minimized expert intervention. Got nominated for the <u>Best B.Tech. Project Award</u>, one of the 3 projects nominated in the entire batch of 2016. <!-- Handed over the segmentation and 3D visualisation software to All India Institute of Medical
+		Sciences(AIIMS), Jodhpur for the cost-effectiveness analysis of patients’ reports --></p> 
+										
+										<div style="bottom: 20px; position: absolute;">
+											<span class="project-skills">c++</span>
+											<span class="project-skills">opencv</span>
+											<span class="project-skills">matlab</span>
+											
+										</div>
+									</div>
+								</div>
+							</a>
+							
+
+							
+					          <!-- <div class="work-grids"> -->
+					          
+					          	<div class="col-md-5 projbox">
+									<!-- <div class="work-grid-6"> -->
+										
+										<div class="work-grid-info">
+											<h2 style="">Centralized Video Processing</h2>
+											<!-- <h3 style="float: right;">Jan'15 - Apr'15</h3>
+											<br style="clear:both;" />
+											<h3>Guide: Dr. Venkata Ramana Badarla | IIT Jodhpur</h3> -->
+											<p>Developed a remote video processing system using socket programming in C++. Multiple users were managed using threading. Reduced the network load and video tagging was done at the server for minimizing data storage.</p> 
+
+											<div style="bottom: 20px; position: absolute;text-align: center;">
+												<span class="project-skills">c++</span>
+												<span class="project-skills">opencv</span>
+												
+											</div>
+										</div>
+									<!-- </div> -->
+								</div>
+								<div class="col-md-5 projbox">
+									<!-- <div class="work-grid-6"> -->
+										<div class="work-grid-info">
+											<h2 style="">Virtual Memory Management</h2>
+											<!-- <h3 style="float: right;">Jan'15 - Apr'15</h3>
+											<br style="clear:both;" />
+											<h3>Guide: Dr. Gaurav Harit | IIT Jodhpur</h3> -->
+											<p>Designed a virtual memory system in C and analysed the performance of FIFO, clock and LRU algorithms for page replacement. Parameters considered – prepaging vs demand paging, local vs global page replacement, precleaning.</p> 
+
+											
+
+										</div>
+								</div>
+								<div class="col-md-5 projbox">
+									<!-- <div class="work-grid-6"> -->
+										<h3></h3>
+										<div class="work-grid-info">
+											<h2 style="">Gest-Talk</h2>
+											<!-- <h3 style="float: right;">25 Jan'15 - 27 Jan'15</h3>
+											<br style="clear:both;" />
+											<h3>Microsoft Hackathon'15 | IIT Jodhpur</h3> -->
+											<p>An application, developed within 24 hours, in C# during Code.fun.do(2015) conducted by Microsoft, using the machine learning feature of Visual Gesture Builder for Microsoft Kinect 2.0,which targets the communication between differently-abled people with the help of gestures.</p> 
+
+											<div style="bottom: 20px; position: absolute;">
+												<span class="project-skills">c#</span>
+												<span class="project-skills">visual gesture builder</span>
+												<span class="project-skills">kinect</span>
+												
+											</div>
+
+										</div>
+									<!-- </div> -->
+								</div>	
+							
+							<!-- 				
+							<div class="col-md-5 projbox">
+									<h3></h3>
+									<div class="work-grid-info">
+										<h2 style="">RAILWAY STATION SCHEDULER</h2>
+										<p></p> 
+
+									</div>
+							</div>
+							<div class="col-md-5 projbox">
+									<h3></h3>
+									<div class="work-grid-info">
+										<h2 style="">INTELLIGENT SPELL CORRECTOR</h2>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. K.R.Chowdhary | IIT Jodhpur</h3> 
+										<p>Designed and implemented a context-based spell corrector using Trie data structure in Python. It analyzes the natural language text semantically, based on the ontology which is constituted of the six basic emotions and predicts the most relevant replacements.</p> 
+
+									</div>
+							</div>
+							<div class="col-md-5 projbox">
+									<h3></h3>
+									<div class="work-grid-info">
+										<h2 style="">CPU SCHEDULER</h2>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Gaurav Harit | IIT Jodhpur</h3> 
+										<p>Simulated a CPU scheduler to analyze the performance of FCFS, preemptive vs non-preemptive SJF, Priority Scheduling, Round Robin, Multilevel Feedback queue based scheduling.</p> 
+
+									</div>
+							</div>
+							<div class="col-md-5 projbox">
+									<h3></h3>
+									<div class="work-grid-info">
+										<h2 style="">RSA CRYPTOGRAPHY</h2>
+										<h3 style="float: right;">Jan'14 - Apr'14</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Dinabandhu Pradhan | IIT Jodhpur</h3> 
+										<p>A Discrete Mathematics course project in C on RSA Encryption and Decryption of messages with
+		more efficiency by using Fast Modular Exponentiation coupled with key feature of Knuth Algorithm.</p> 
+
+									</div>
+							</div>
+							<div class="col-md-5 projbox">
+								<div class="work-grid-6"> 
+									<h3></h3>
+									<div class="work-grid-info">
+										<h2 style="">CAROM</h2>
+										<h3 style="float: right;">Jul'14 - Dec'14</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Gaurav Harit | IIT Jodhpur</h3>
+										<p>A multiplayer carom board game implemented using Python’s Pygame Library.</p> 
+
+									</div>
+							</div>
+							<div class="col-md-5 projbox">
+								<div class="work-grid-6">
+									<h3></h3>
+									<div class="work-grid-info">
+										<h2 style="">LIBRARY DATABASE MANAGEMENT</h2>
+										<h3 style="float: right;">Jul'13 - Dec'13</h3>
+										<br style="clear:both;" />
+										<h3>Guide: Dr. Venkata Ramana Badarla | IIT Jodhpur</h3>
+										<p>Implemented an AVL Tree ADT in C to store the details of the books efficiently and perform various operations like issuing, renewing of books from the library.</p> 
+
+									</div>
+							</div>
+							-->
+						</div>
+				<!-- <div class="clearfix"></div> -->
+					</div>
+				</section>
+
+			    <!-- <section class="module parallax4 parallax-4">
+			        <div class="container">
+			        	<div class="layer2">
+			
+			        	</div>
+			        	<h1>Positions of Responsility at IITJ</h1>
+			        </div>
+			      </section> -->
+
+
+			      <section class="module common" id="por">
+			      	<div class="container">
+			      		<h1>Positions of Responsibility</h1>
+			      		<h5 style="text-align: center;">Below are some of the major PORs that I managed during my B.Tech.</h5>
+			      		<img src="cs_logo.png" style="display:inline-block; float: left; margin-right: 20px; " height="100" width="70"> 
+					
+						<div style="display:inline-block; width:90%; margin-bottom: 30px;">
+			      			<h2 style="float: left;" >Assistant Student Head, Counseling Service, IIT Jodhpur</h2>
+				      		<h3 style="float: right;">Mar 2014 – Apr 2015</h3>
+				      		<br style="clear:both;" />
+				      		<p>Led and managed a team of 17 student guides along with 7 other assistant student heads and successfully set up a Counseling Referral System and conducted Career Counseling Sessions for the 1st time in the institute.
+							</p>
+			      		</div><br>
+
+
+			      		<img src="varchas-logo.jpg" style="display:inline-block; float: left; margin-right: 20px; margin-top: 10px;border-radius: 50%;" height="80" width="70"> 
+					
+						<div style="display:inline-block; width:90%; margin-bottom: 30px;">
+			      			<h2 style="float: left;" >Head, Publicity and Media, Varchas'14, IIT Jodhpur</h2>
+				      		<h3 style="float: right;">Sep 2013 – Feb 2014</h3>
+				      		<br style="clear:both;" />
+				      		<p>Led a two-tier team of 12 people to plan and publicize the inter-collegiate sports festival of the institute, bringing countrywide participation of over 1000 people. Publicized and brought a participation of over 500 people in the Varchas Mini-Marathon’14,
+						organized across Jodhpur by IIT Jodhpur
+							</p>
+			      		</div><br>
+
+
+			      		<img src="ignus.png" style="display:inline-block; float: left; margin-right: 20px; " height="90" width="70"> 
+					
+						<div style="display:inline-block; width:90%; margin-bottom: 30px;">
+			      			<h2 style="float: left;" >Coordinator, Marketing, Ignus’14, IIT Jodhpur</h2>
+				      		<h3 style="float: right;">Sep 2013 – Feb 2014</h3>
+				      		<br style="clear:both;" />
+				      		<p>Worked with a team of 26 members to garner Rs.30 lakhs as sponsorship for the inter-collegiate techno-cultural festival of IIT Jodhpur, bringing a footfall of over 4000 people.
+							</p>
+			      		</div><br>
+			      		
+		      			<img src="cs_logo.png" style="display:inline-block; float: left; margin-right: 20px; " height="100" width="70"> 
+					
+						<div style="display:inline-block; width:90%; margin-bottom: 30px;">
+			      			<h2 style="float: left;" >Student Guide, Counseling Service, IIT Jodhpur</h2>
+				      		<h3 style="float: right;">Mar 2013 – Apr 2016</h3>
+				      		<br style="clear:both;" />
+				      		<p>Mentored a group of 10 counselee students and guided them regarding academic and extra- curricular affairs in the institute,
+	acting as a Student Guide throughout their stay.
+							</p>
+			      		</div><br>
+			      	
+			      </section>
+
+
+
+
+			      <section class="module common courses" id="courses">
+			      	<div class="container">
+			      		<h1 style="margin-bottom: 50px;">Courses</h1>
+			      		<h5></h5>
+			      		
+						<div style="margin-bottom: 20px;">
+			      			<h2 style="float: left;" >@University of Texas at Dallas</h2>
+				      		<h3 style="float: right;"></h3>
+				      		<br style="clear:both;" />
+				      		<ul style="list-style-type:disc; margin: 30px;">
+				      			<li>Machine Learning</li>
+				      			<li>Computer Vision</li>
+				      			<li>Convolutional Neural Networks</li>
+				      			<li>Natural Language Processing*</li>
+				      			<li>Design & Analysis of Computer Algorithms</li>
+				      			<li>Big Data Management And Analytics</li>
+				      			<li>Distributed Computing</li>
+				      			<li>Database Design</li>
+				      			<li>Computer Animation and Gaming*</li>
+				      		</ul>
+			      		</div><br>
+
+			      		<div style="margin-bottom: 20px;">
+			      			<h2 style="float: left;" >@IIT Jodhpur</h2>
+				      		<h3 style="float: right;"></h3>
+				      		<br style="clear:both;" />
+				      		<ul style="list-style-type:disc; margin: 30px;">
+				      			<li>Artificial Intelligence</li>
+				      			<li>Digital Image Analysis</li>
+				      			<li>Computer Graphics</li>
+				      			<li>Operating Systems</li>
+				      			<li>Compiler Design</li>
+				      			<li>Computer Networks</li>
+				      			<li>Principles of Databases Systems</li>
+				      			<li>Software Engineering</li>
+				      		</ul>
+			      		</div><br>
+
+			      		<!-- <div style="float: right;">*ongoing</div> -->
+			      </section>
+
+			      
+
+
+			      
+
+			      <section class="module common achievements" id="achievements">
+			      	<div class="container">
+			      		<h1>Achievements</h1>
+			      		<h5>Few of the many things to be proud of.</h5>
+			      		
+						<div style="margin-bottom: 20px;">
+			      			<ul style="list-style-type:disc; margin: 20px;">
+				      			<li>Journal Publication honored with "Meritorious" status in Honored papers 2017, Computers in Biology and Medicine (2018), <a href="https://doi.org/10.1016/j.compbiomed.2018.05.020" target="_blank">doi: 10.1016/j.compbiomed.2018.05.020</a>
+				      			</li>
+				      			<li>Recipient of Jonsson School $1000 Graduate Study Scholarship at University of Texas at Dallas (2018)</li>
+				      			<li>All India Rank 3471 in IIT-JEE 2012, among 500,000 candidates from all over the country</li>
+				      			<li>Secured State Rank 30 (2009) and District Rank 1 (2008) in Maharashtra Talent Search Examination</li>
+				      			<li>Stood among the top 0.01% students in the Maharashta State Scholarship examination in 2007</li>
+				      		</ul>
+			      		</div><br>
+			      </section>
+
+			<!-- <section class="module parallax2 parallax-5">
+			        <div class="container2">
+			        	<div class="layer2">
+			
+			        	</div>
+			        	<h1>And a bit more about me.</h1>
+			        </div>
+			</section> -->
+
+			<section class="module common">
+		        <div class="container">
+		    			<h1>A bit more about me...</h1>
+						<h5></h5>
+						<p>Although the grad life keeps me busy nowadays, I try to invest time in my new-found love for cooking new delicacies and fitness. I also enjoy playing basketball. I love drawing and painting and have even surprised myself by making a few good ones. I also love getting my face painted though. :D <br>
+
+						<img src="child.jpg" height="300" width="400" style="margin-top: 40px; margin-bottom: 20px;">
+						<img src="emma.jpg" height="300" width="250" style="margin-top: 40px; margin-bottom: 20px;">
+						<img src="painted-me.jpg" height="300" width="225" style="margin-top: 40px; margin-bottom: 20px;" >
+						</p>
+			
+				</div>
+		   </section>
+
+		   <section class="module common" id="resume">
+					<div class="container">
+						<h1>Resume</h1>
+						<h5></h5>
+						<a href="Manas_resume_oct20-2019_linkedin.pdf" target="_blank"><img class="circle4" src="resume.png" height="80" width="80" style="position: relative;left: 0px; right: 0px;"></a>
+					</div>
+
+				</section>
+
+		      	<!-- <section class="module common">
+					<div class="container">
+					<a href="https://in.linkedin.com/in/manasbundele"><img class="circle5" src="linkedin.png"  ></a>
+					<a href="https://www.pinterest.com/manasbundele/"><img class="circle6" src="pinterest.png"  ></a>
+					<a href="https://www.facebook.com/manas.bundele/"><img class="circle7" src="fb.png"  ></a>
+					<a href="mailto:ug201210010@iitj.ac.in"><img class="circle8" src="gmail.png"  ></a>
+						
+					</div>
+					</div>	
+				</section> -->
+			</section>
+
+			<div class="sidenav1">
+				<div id="social-icons" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none;">
+					<!-- <a href="Manas_resume_oct20-2019_linkedin.pdf" target="_blank"><img class="circle-right" src="resume.png"></a> -->
+					<a href="https://in.linkedin.com/in/manasbundele" target="_blank"><img class="circle-right" src="linkedin.png"></a>
+					<a href="mailto:manasbundele03@gmail.com" target="_blank"><img class="circle-right" src="gmail.png"></a>
+					<a href="https://github.com/manasbundele" target="_blank"><img src="GitHub-Mark-Light-32px.png" id="github-image" alt="github"></a>
+					
+					<a href="https://www.facebook.com/manas.bundele/" target="_blank"><img class="circle-right" src="fb.png"></a>
+				</div>
+					
+			</div>
+
+		</main>
+	</body>
+</html>

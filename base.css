@@ -1,0 +1,259 @@
+/* Although more than 95% of the content was removed/revamped, some contents of this file are based on my previous single scroll parallax website made in 2015 based on the tutorial from HTML5 boilerplate MIT License. https://ihatetomatoes.net/how-to-create-a-parallax-scrolling-website-part-2/ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ============================================================
+  BOX SIZING & CLEARFIX
+============================================================ */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ============================================================
+  HTML & BODY
+============================================================ */
+body {
+  background-color: #b4b4b4;
+  color: #787878;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.education{
+padding:60px 0;
+background:rgb(200,200,200);
+}
+
+.work-grid-info h3{
+  margin: 0;
+  color: rgb(255,255,255);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.work-experience{
+  padding: 60px 0;
+  background: rgb(0,0,0);
+}
+
+.work-grid h3{
+margin:0;
+background:rgba(255,255,255);
+padding: 1px 0;
+font-size: 7px;
+font-weight: 600;
+}
+
+.work-grid-info{
+background:#eeeeee;
+padding: 20px 18px 5px 18px;
+}
+
+.work-grid-info h4{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: #343a40;
+  text-align: center;
+  font-weight: 700;
+}
+
+.work-grid-info-5 h4{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 22px;
+  color: #4b4b4b;
+  text-align: center;
+  font-weight: 700;
+}
+.work-grid-info,.work-grid-info-5 h5{
+  font-family: 'Lato', sans-serif;
+  margin: 12px 0 25px 0;
+  font-size: 18px;
+  color: #c1c1c1;
+  text-align: center;
+  font-weight: 500;
+}
+.work-grid-info,.work-grid-info-5 p{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8em;
+  margin: 0;
+  font-size: 18px;
+  color: #888b90;
+  font-weight: 300;
+}
+.work-grid{
+border:2px solid rgb(82,82,82);
+border-radius: 6px;
+border-bottom: 2px solid #c3c3c3;
+margin-bottom: 50px;
+}
+
+.work-grid-5-1{
+border:1px solid rgb(82,82,82);
+border-radius: 6px;
+padding-bottom: 5px;
+border-bottom: 7px solid rgb(8,0,0);
+margin-bottom: 50px;
+}
+
+.work-grid-5-2{
+border:1px solid rgb(82,82,82);
+border-radius: 6px;
+padding-bottom: 235px;
+border-bottom: 7px solid rgb(8,0,0);
+margin-bottom: 50px;
+}
+
+.work-grid-6{
+border-top:3px solid rgb(82,82,82);
+border-radius: 16px;
+border-bottom: 3px solid rgb(8,8,8);
+margin-bottom: 50px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+ .col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.col-md-5{
+  position: relative;
+  min-height: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.col-md-6{
+  text-align: center;
+  min-height: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5 {
+    float: left;
+  }
+  .col-md-5 {
+    width: 50%;
+    padding-top: 30px;
+  }
+ 
+}
+
+@media (min-width: 992px) {
+  .col-md-6 {
+    float: center;
+    margin: 0 auto;
+  }
+  .col-md-6 {
+    width: 40%;
+    padding-top: 30px;
+  }
+ 
+}
+
+/* site title */
+.site-title {
+  padding: 5px 0;
+  background-color: #818181;
+  text-align: center;
+}
+.site-title h1 {
+  color: #fff;
+}

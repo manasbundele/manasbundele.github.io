@@ -1,0 +1,402 @@
+
+hr.striped {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+#social-links{
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+#social-links a{
+  color: #6f0303;
+}
+
+.sidenav {
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3c0101;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  transition: 1s;
+}
+
+.sidenav1 {
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  margin-left: 95%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3c0101;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sidenav a {
+  /*padding: 6px 8px 6px 16px;*/
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(255,255,255,0.7);
+  display: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 60%;
+}
+
+.sidenav a:hover {
+  color: rgba(255,255,255,0.3);
+  text-decoration: underline;
+}
+
+#sidenav-image {
+  border-radius: 50%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  width: 50%;
+  margin-bottom: 20%;
+}
+
+#center-image{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 20%;
+}
+
+#right-half{
+  margin-left: 5%; /* Same as the width of the sidenav */
+  margin-right: 5%;
+  transition: 1s;
+}
+
+.container:after {
+  content: " ";
+  clear:both;
+  display:block;
+}
+
+/*.projbox{
+  border-radius:10px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+
+}*/
+
+.work-grid-info:hover{
+  /*outline: 1px solid #888b90;*/
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.work-grid-info{
+  text-align: left;
+  font-family: "Roboto Slab";
+  /*margin: 10px;*/
+  background:#eeeeee;
+  /*padding: 20px 18px 5px 18px;*/
+  border-radius:10px;
+  border: 1px solid #ccc;
+  height: 450px;
+}
+
+
+.skills-column {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-right: 20px;
+
+}
+
+/* Clear floats after the columns */
+.skills-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+
+.work-grid-info p{
+  text-align: left;
+  font-family: "Roboto Slab";
+  /*font-family: 'Lato', sans-serif;*/
+  margin: 10px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  font-size: 15px;
+  font-weight: 100;
+  color: #6b6b6b;
+}
+
+.work-grid-info h2{
+  text-align: center;
+}
+
+
+.projbox span{
+  border: 1px solid #50a9d1;
+  /*text-transform: uppercase;*/
+  /*font-weight: 500;*/
+  width: auto;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content1 h1 {
+  font-family: "Roboto Slab";
+  font-size: 75px;
+  text-align: center;
+  color: #045963;
+}
+
+section.module.content1 h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab";
+  font-size: 5px;
+}
+section.module.content1 p{
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: #6b6b6b;
+}
+
+section.module.common p{
+  font-size: 16px;
+  font-weight: 100;
+  /*color: #343a40;*/
+  /*font-family: "Roboto Slab";*/
+  font-family: "Roboto Slab";
+  margin-top: 5px;
+  color: #545454; /*#6b6b6b;*/
+}
+
+section.module.projects p{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.box{
+background-color: rgba(5,5,5,0.5);
+width:600px;
+margin-left: -70px;
+height: 100%;
+padding-left: 50px;
+}
+
+.container a:visited {
+    color: #6f0303;
+    background-color: transparent;
+    text-decoration: none;
+}
+.container a:active {
+    color: #6f0303;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.container a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content1 {
+  padding: 100px 0;
+  background-color: #eeeeee;
+  color: rgb(0,0,0);
+  height: 100vh;
+  border-bottom: 1.5px dashed #3c0101;
+}
+
+
+section.module.common {
+  padding: 40px 0;
+  /*background-color:#282A2E;*/
+  background-color: #eeeeee;
+  color: rgb(0,0,0);
+  border-bottom: 1.5px dashed #3c0101;
+  min-height: 70vh;
+  /*color: rgb(255,255,255);*/
+}
+
+
+section.module.common h2 {
+  font-family: "Roboto Slab";
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #343a40;
+  font-weight: 500;
+  /*text-align: center;*/
+}
+
+section.module.common h1 {
+  font-family: "Roboto Slab";
+  /*margin-bottom: 50px;*/
+  font-size: 40px;
+  color: #343a40;
+  font-weight: 700;
+  padding-top: 10px;
+  text-align: center;
+}
+
+section.module.common h3 {
+  font-family: "Roboto Slab";
+  margin: 3px;
+  font-size: 17px;
+  color: #343a40;
+  font-weight: 500;
+  /*text-align: center;*/
+}
+
+section.module.common h4 {
+  font-family: "Roboto Slab";
+  /*margin: 3px;*/
+  font-size: 14px;
+  color: #343a40;
+  /*font-weight: 500;*/
+  /*text-align: center;*/
+}
+
+section.module.common h5 {
+  font-family: "Roboto Slab";
+  margin-bottom: 50px;
+  font-size: 12px;
+  color: #343a40; 
+  text-align: center;
+  /*font-weight: 500;*/
+  /*text-align: center;*/
+}
+
+section.module.common ul {
+  font-family: "Roboto Slab";
+  margin: 5px;
+  font-size: 15px;
+  color: #545454;
+  /*color: #6b6b6b;*/
+  font-weight: 500;
+  /*text-align: center;*/
+}
+
+.projbox h2:hover{
+  text-decoration: underline;
+}
+
+
+section.module.common li{
+  margin: 3px;
+}
+
+.courses ul {
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+  padding-left: 0;
+}
+.courses ul li {
+  list-style-position: inside;
+  -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid;
+}
+
+.achievements ul li{
+  margin-bottom: 10px;
+}
+
+
+.circle4 {
+  width: 60px;
+  height: 60px;
+  margin-left: 430px;
+  background-size: cover;
+  margin-top: -150px; 
+}
+
+.circle4:hover{
+  opacity: 0.5;
+}
+
+
+
+.circle-right {
+  width: 30px;
+  height: 30px;
+  /*margin-left: 300px;*/
+  background-size: cover;
+  margin: 20px; 
+  position: relative;
+  display: block;
+}
+
+.circle-right:hover{
+  opacity: 0.5;
+}
+
+ .the-container { width:1200px; height:450px; background-color:#aaa;
+        padding-left: 150px;
+        margin-left: 50px;
+   }
+ .the-container ul { margin:0; padding:0; list-style:none; }
+ .the-container li { width:30px; height:400px; margin:0 25px; position:relative; float:left; }
+ .the-container li a { position:absolute; bottom:0; width:100%; height:0; background-color:rgb(0,8,0); }
+ .the-container li a:hover { background-color:rgb(0,8,0); }
+ 
+.label {
+    background: $grayLight;
+    margin: -9px 0 71px 0;
+    width:100%; height:10px; background: rgb(0,8,0);
+  }
+  
+.chart_back{
+  background-color: rgb(0,0,0);
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 70px;
+  }
+}
+
+/*Although more than 95% of the content was removed/revamped, some contents of this file are based on my previous single scroll parallax website made in 2015 based on the tutorial from HTML5 boilerplate MIT License. https://ihatetomatoes.net/how-to-create-a-parallax-scrolling-website-part-2/*/
