@@ -337,7 +337,7 @@ section.module.common li{
 .circle4 {
   width: 60px;
   height: 60px;
-  margin-left: 430px;
+  /*margin-left: 430px;*/
   background-size: cover;
   margin-top: -150px; 
 }
