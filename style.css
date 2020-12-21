@@ -15,6 +15,11 @@ hr.striped {
   color: #6f0303;
 }
 
+.bold-about{
+  font: revert;
+  font-weight: 1000;
+}
+
 .sidenav {
   height: 100%;
   width: 5%;
