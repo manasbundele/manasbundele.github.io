@@ -53,10 +53,10 @@
 		 </script>
 	</head>
 	<body>
-		<main>
+		<main style="overflow-x:hidden; ">
 			<div class="sidenav">
 
-			  <a href="#firstpage" class="slide-section"><img src="mypic-aug2020.jpg" id="sidenav-image" alt="myAvatar"></a><br>
+			  <a href="#firstpage" class="slide-section"><img src="mypic_square.png" id="sidenav-image" alt="myAvatar"></a><br>
 		  	  <a href="#about" class="slide-section">About</a><br>
 			  <a href="#education" class="slide-section">Education</a><br>
 			  <a href="#experience" class="slide-section">Experience</a><br>
@@ -80,7 +80,7 @@
 
 		      	<section class="module content1" id="firstpage">
 		      		<div class="container">
-		      		<img src="mypic-aug2020.jpg" id="center-image" alt="myAvatar">
+		      		<img src="mypic_square.png" id="center-image" alt="myAvatar">
 		      		<h1>Manas Bundele</h1>
 					<div id="social-links" style="margin-bottom: 50px;">
 						<img src="mail-black.png" id="mail-image" alt="mail" style="vertical-align: middle; margin-left: 10px;">
@@ -112,11 +112,17 @@
 		      		<img src="UTD_emblem_2c_flame_eco.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="60" width="60">
 		      		<div style="display:inline-block; width:90%; margin-bottom: 40px;">
 		      			<h2 style="float: left;" >University of Texas at Dallas</h2>
-			      		<h3 style="float: right;">| MS in Computer Science</h3>
+			      		<h3 style="float: right;">| MS in Computer Science (Thesis)</h3>
 			      		<br style="clear:both;" />
-			      		<h3 style="float: right;">Expected May 2020</h3>
+			      		<h3 style="float: right;">August 2020</h3>
 			      		
-			      		<p>Jonsson School $1000 Graduate Study Scholarship Recipient</p>
+			      		<p>
+
+			      			- Recipient of Jonsson School Graduate Study Scholarship (2018-19) <br>
+							- Recipient of Master's Research Fellowship (2020)
+
+
+			      		</p>
 		      		</div>
 
 		      		<img src="IITJ Logo__Smallest.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="60" width="60">
@@ -125,7 +131,7 @@
 			      		<h3 style="float: right;">| B.Tech. in Computer Science & Engineering</h3>
 			      		<br style="clear:both;" />
 			      		<h3 style="float: right;">May 2016</h3>
-			      		<p>B.Tech. Project nominated for 'Best B.Tech. Project' award in the institute</p>
+			      		<p> - B.Tech. Project nominated for 'Best B.Tech. Project' award in the institute</p>
 			      	</div>
 
 		      		</div>
@@ -143,21 +149,48 @@
 		      		
 		      		<h1>Experience</h1>
 		      		<h5></h5>
+
+		      		<img src="etsy_logo.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="45" width="45">
+		      		<h2 style="float: left;">Etsy Inc.</h2>
+					<h3 style="float: left;">| Machine Learning Intern</h3>
+					<h3 style="float: right;">Jul 2020 - Oct 2020</h3>
+					<br style="clear:both;" />
+					<h3 style="margin-left: 60px;">Project: ‘Let Etsy Pick Your Shoe for You!’</h3>
+					<ul style="list-style-type:disc;">
+
+		      		<li style="margin-left: 60px;">Designed and implemented a novel technique towards scene-aware, compatible fashion product recommendation.
+					</li>
+
+					<li style="margin-left: 60px;">
+						Proposed approach consisted of a pre-trained Resnet50V2 model, along with other specialized layers to learn the style
+compatibility between a user-uploaded outfit and a product from Etsy’s inventory using Triplet Loss
+
+					</li>
+
+					<div class="projbox" style="margin-left: 60px;">
+						<span class="project-skills">python</span>
+						<span class="project-skills">tensorflow</span>
+						<span class="project-skills">scikit-learn</span>
+					</div>
+					<br><br>
+
+
 		      		<img src="UTD_emblem_2c_flame_eco.png" id="mail-image" alt="mail" style="display:inline-block; float: left; margin-right: 20px; " height="45" width="45">
 		      		<h2>UT Dallas Computer Science Department</h2>
 					<ul style="list-style-type:disc;">
 					<h3 style="float: left; "><li>Outreach Coding Camp Counselor</li></h3>
 					<h3 style="float: right;">Jun 2019 - July 2019</h3>
 					<br style="clear:both;" />
-		      		<li style="margin-left: 60px;"> Worked as a camp counselor for high school kids of different ages participating in the coding camps at UTD
+		      		<li style="margin-left: 65px;"> Guided and mentored young impressionable minds during summer coding camps
 					</li>
 						
 
 					<h3 style="float: left; margin-left: 60px;"><li>Computer Science Grader</li></h3>
-					<h3 style="float: right;">Aug 2018 - May 2019</h3>
+					<h3 style="float: right;">Aug 2018 - May 2019 | Feb - May 2020</h3>
 					<br style="clear:both;" />
 		      		<ul style="list-style-type:disc;">
-		      		<li style="margin-left: 60px;">Graded the tests, quizzes and assignments of a batch of 75 undergraduate students for the course Discrete Mathematics</li><li style="margin-left: 60px;"> Got nominated for the ’Best Grader’ Award in the department </li>
+		      		<li style="margin-left: 60px;"> Got nominated for the ’Best Grader’ Award in the department </li>
+		      		<li style="margin-left: 60px;">Graded the tests, quizzes and assignments of a batch of 75 undergraduate students for the course Discrete Mathematics</li>
 					</p>
 					</ul><br>
 
@@ -180,8 +213,19 @@
 
 					</li>
 					<li style="margin-left: 60px;"><u>Project CRM Centre Database</u>: Wrote optimized Postgresql scripts to synchronize the customer’s data from website and ERP databases into a centralized database daily, data being used for analysis and in key projects by the Data Science team</li>
+					<div class="projbox" style="margin-left: 60px;">
+						<span class="project-skills">ruby on rails</span>
+						<span class="project-skills">postgresql</span>
+						<span class="project-skills">html</span>
+						<span class="project-skills">css</span>
+						<span class="project-skills">jQuery</span>
+						<span class="project-skills">javascript</span>
+						<span class="project-skills">Git</span>
+						<span class="project-skills">AWS</span>
+						<span class="project-skills">solr</span>
+						
+					</div>
 					<br>
-
 					<!-- <hr> -->
 
 					<br><h2 style="float: left; margin-left: 60px;">Defence Institute of Advanced Technology, Pune</h2>
@@ -205,20 +249,20 @@
 						  
 			      		  <div class="skills-column">
 						  	<img src="./Python-01.png" style="margin-bottom: -30px;" height="100" width="100"><!--  <h2>Python</h2> -->
-						  	<p>Although I had used python a couple of times before joining UTD, I have been using it over the past 1 and 1/2 years for my coursework and research. Most of my projects related CV, NLP and ML have been coded in Python.</p>
+						  	<p>I have been using Python extensively for over the past 3 years for my coursework and research. Most of my projects related to CV, NLP and ML have been coded in Python which can be found on my Github profile.</p>
 
 						  </div>
 
 						  <div class="skills-column">
 						  	<img src="./tensorflow.png" style="" height="70" width="140"> 
 						  	<!-- <h2>Tensorflow</h2> -->
-						  	<p>I have been using this library over the past few months in my projects as well as my research work. To improve my skills, I very recently completed a course 'Tensorflow in Practice' by deeplearning.ai. </p>
+						  	<p>I have been using this library over the past year in my projects as well as my research work. I have also completed a course 'Tensorflow in Practice' by deeplearning.ai. I have extensively used it during my internship at Etsy to develop a recommendation system.</p>
 						  </div>
 
 						  <div class="skills-column">
 						  	<img src="./ruby-on-rails.png" style="border-radius: 50%;" height="70" width="100"> 
 						  	<!-- <h2>Ruby on Rails</h2> -->
-						  	<p>During my job at Voylla Fashions Pvt. Ltd., being one of the go-to backend developers, I have heavily used it for development, debugging and optimization of several projects. </p>
+						  	<p>During my job at Voylla Fashions Pvt. Ltd., being one of the go-to backend developers, I have heavily used it for development, debugging and optimization of several projects. I have written several thousands of lines of code and also debugged several critical issues during this period.</p>
 						  </div>
 						  
 
@@ -231,13 +275,13 @@
 						  <div class="skills-column" style="width: 45%;">
 						  	<img src="./scala.png" style="border-radius: 50%;" height="70" width="100"> 
 						  	<!-- <h2>Scala</h2> -->
-						  	<p>I recently used this language during my course, Big Data Analytics and Management. It is a wonderful language to work with and hope to use it again in my other projects.</p>
+						  	<p>I have used Scala in all the assignments during my course, Big Data Analytics and Management. It is a wonderful language to work with and hope to use it again in my other projects.</p>
 						  </div>
 
 						  <div class="skills-column" style="width: 45%;">
 						  	<img src="./apache-spark.png" style="" height="70" width="140"> 
 						  	<!-- <h2>Apache Spark</h2> -->
-						  	<p>During my course Big Data and Analytics, it was interesting to learn about Big Data ecosystems i.e. Hadoop, Mapreduce, Apache Spark and NoSQL systems.</p>
+						  	<p>Since the summer of 2019, I have been using technologies in the Big Data ecosystem i.e. Hadoop, Mapreduce, Apache Spark and NoSQL systems.</p>
 						  </div>
 						  
 						</div>
@@ -253,7 +297,7 @@
 						  <div class="skills-column">
 						  	<img src="./postgresql.png" style="" height="70" width="70"> 
 						  	<!-- <h2>Postgresql</h2> -->
-						  	<p>I have written several 1000 queries in Postgresql over the course of my projects at Voylla. From using it for analysis, data cleaning and data migration in Solidus to creating a CRM centre database, it has been an interesting journey working with data using Postgresql.</p>
+						  	<p>I have written over 5000 queries in Postgresql over the course of my projects at Voylla. From using it for analysis, data cleaning and data migration in Solidus to creating a CRM centre database(centralized database for ERP and Website), it has been an interesting journey working with data using Postgresql.</p>
 						  </div>
 						  
 
@@ -276,9 +320,15 @@
 			      	<div class="container">
 			      		<h1>Publications</h1>
 			      		<h5></h5>
-			      		
-						<div style="margin-bottom: 20px;">
+			      		<div style="margin-bottom: 20px;">
 			      			<ul style="list-style-type:disc; margin: 20px;">
+				      			<li><u>Manas Bundele</u>; “ICONIC : Discerning Insightful Contexts in Image Captioning By Leveraging Commonsense Knowledge”, MS
+Thesis, 
+
+				      			<a href="Link: https://utd-ir.tdl.org/handle/10735.1/9021" target="_blank">https://utd-ir.tdl.org/handle/10735.1/9021</a><br>
+
+				      			
+				      			</li> <br>
 				      			<li>Pratik Kalshetti, <u>Manas Bundele</u>, Parag Rahangdale, Dinesh Jangra, Chiranjoy Chattopadhyay, Gaurav Harit and Abhay Elhence; "An Interactive Medical Image Segmentation Framework Using Iterative Refinement", Computers in Biology and Medicine, February 2017, pp. 22-33. <br>
 
 				      			Link to Project UI video: <a href="https://manasbundele.github.io/mist_gui.mp4" target="_blank">https://manasbundele.github.io/mist_gui.mp4</a><br>
@@ -740,14 +790,15 @@
 				      		<br style="clear:both;" />
 				      		<ul style="list-style-type:disc; margin: 30px;">
 				      			<li>Machine Learning</li>
-				      			<li>Computer Vision</li>
+				      			<li>Computer Vision (A+)</li>
 				      			<li>Convolutional Neural Networks</li>
-				      			<li>Natural Language Processing*</li>
+				      			<li>Natural Language Processing</li>
 				      			<li>Design & Analysis of Computer Algorithms</li>
 				      			<li>Big Data Management And Analytics</li>
 				      			<li>Distributed Computing</li>
 				      			<li>Database Design</li>
-				      			<li>Computer Animation and Gaming*</li>
+				      			<li>Computer Animation and Gaming</li>
+				      			<li>Artificial Intelligence</li>
 				      		</ul>
 			      		</div><br>
 
@@ -782,11 +833,13 @@
 			      		
 						<div style="margin-bottom: 20px;">
 			      			<ul style="list-style-type:disc; margin: 20px;">
+			      				<li>Recipient of Master’s Summer Research Fellowship at UTD. (2020)</li>
+			      				<li>Recipient of Jonsson School $1000 Graduate Study Scholarship at University of Texas at Dallas (2018-19)</li>
 				      			<li>Journal Publication honored with "Meritorious" status in Honored papers 2017, Computers in Biology and Medicine (2018), <a href="https://doi.org/10.1016/j.compbiomed.2018.05.020" target="_blank">doi: 10.1016/j.compbiomed.2018.05.020</a>
 				      			</li>
-				      			<li>Recipient of Jonsson School $1000 Graduate Study Scholarship at University of Texas at Dallas (2018)</li>
+				      			
 				      			<li>B.Tech. Project, one of the three projects nominated from the institute for 'Best B.Tech. Project' award (2016)</li>
-				      			<li>All India Rank 3471 in IIT-JEE 2012, among 500,000 candidates from all over the country</li>
+				      			<li>Among the top 0.7% students in the country; securing All India Rank 3471 in IIT-JEE 2012 among 500,000 candidates</li>
 				      			<li>Secured State Rank 30 (2009) and District Rank 1 (2008) in Maharashtra Talent Search Examination</li>
 				      			<li>Stood among the top 0.01% students in the Maharashta State Scholarship examination in 2007</li>
 				      		</ul>
@@ -820,7 +873,7 @@
 					<div class="container">
 						<h1>Resume</h1>
 						<h5></h5>
-						<a href="Manas_Resume-sept2020.pdf" target="_blank"><img class="circle4" src="resume.png" height="80" width="80" style="position: relative;left: 0px; right: 0px;"></a>
+						<a href="Manas_Resume_nov2020.pdf" target="_blank"><img class="circle4" src="resume.png" height="80" width="80" style="position: relative;left: 0px; right: 0px;"></a>
 					</div>
 
 				</section>
